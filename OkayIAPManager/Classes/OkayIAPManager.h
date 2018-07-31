@@ -68,4 +68,13 @@ typedef void(^IAPCompletionHandle)(OkayIAPurchType type, NSString *order, NSData
  移除完成的交易（清除本地缓存凭证）
  */
 - (void)removeCurrentTransaction;
+
+
+/**
+ 通过交易信息校验购买状态（应该服务端进行）
+ 
+ @param transaction 交易信息
+ @param flag 是否是测试
+ */
+- (void)verifyPurchaseWithPaymentTransaction:(SKPaymentTransaction *)transaction isTestServer:(BOOL)flag;
 @end
