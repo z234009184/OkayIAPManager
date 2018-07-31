@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'OkayIAPManager_Example' do
+  pod 'OkayIAPManager', :path => '../'
+
+  target 'OkayIAPManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
