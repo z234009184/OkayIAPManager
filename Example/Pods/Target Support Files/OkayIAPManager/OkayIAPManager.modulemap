@@ -1,0 +1,6 @@
+framework module OkayIAPManager {
+  umbrella header "OkayIAPManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
