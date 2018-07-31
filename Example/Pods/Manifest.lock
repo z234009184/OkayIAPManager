@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - OkayIAPManager (0.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - OkayIAPManager (from `../`)
+  - Specta
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  OkayIAPManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  OkayIAPManager: 7dcd2eed2620a9ad99a66930908c93271b7db30e
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 5ea2f54f84b2d9167cfc474bf86e6bd14218b199
+
+COCOAPODS: 1.5.3
