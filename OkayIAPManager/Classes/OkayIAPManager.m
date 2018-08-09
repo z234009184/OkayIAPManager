@@ -294,7 +294,7 @@ static OkayIAPManager *_okayIAPManager = nil;
 
         
         // 将交易信息发送给苹果服务器进行校验（应该服务器验证）
-        [self verifyPurchaseWithPaymentTransaction:transaction isTestServer:YES];
+//        [self verifyPurchaseWithPaymentTransaction:transaction isTestServer:YES];
     }
 }
 
